@@ -1,0 +1,261 @@
+@media  screen and (max-width: 1600px) {
+    .model-col{
+        flex: 1 0 30%;
+    }
+    .model-list{
+        justify-content: space-between;
+    }
+    .model-info-item {
+        gap: 30px;
+    }
+}
+@media  screen and (max-width: 1440px) {
+    .model-review-star{
+        gap: 20px;
+    }
+}
+@media  screen and (max-width: 1220px) {
+    .model-name h2{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .model-status{
+        font-size: 14px;
+    }
+    .model-status-text{
+        font-size: 16px;
+    }
+    .model-desc{
+        font-size: 16px;
+    }
+    .top-bar form{
+        flex-wrap: wrap;
+    }
+    .top-bar .input-group:last-child{
+        margin-left: 0;
+    }
+    .progress{
+        width: 80px;
+        height: 80px;
+    }
+    .progress .progress-value{
+        font-size: 18px;
+    }
+    .progress .progress-value span{
+        font-size: 10px;
+    }
+    .model-name-block{
+        gap: 20px   ;
+    }
+    .model-info-item div:first-child{
+        width: 40%;
+        margin-bottom: 0;
+    }
+    .model-info-item{
+        margin-bottom: 24px;
+    }
+    .model-name-block h2{
+        padding-top: 30px;
+    }
+}
+@media  screen and (max-width: 1100px) {
+    .model-anketa{
+        flex-direction: column;
+    }
+    .model-anketa-left, .model-anketa-right{
+        width: 100%;
+    }
+}
+@media  screen and (max-width: 1024px) {
+    .search{
+        max-width: 100%;
+    }
+    .model-col {
+        flex: 1 0 45%;
+    }
+}
+@media  screen and (max-width: 990px) {
+    .main-content{
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .sidebar .navbar{
+        flex-direction: row!important;
+    }
+    .navbar-brand{
+        width: auto;
+        margin: unset;
+        border-bottom: 0;
+        padding: 18px 20px;
+    }
+    .navbar-toggler-icon{
+        background: url('../img/icons/menu.svg') no-repeat center;
+
+    }
+    .sidebar .navbar-toggler{
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-collapse.show + .sidebar-footer{
+        display: block;
+    }
+    #navbarNav{
+        padding: 0;
+    }
+    .nav-item{
+        padding: 30px 20px;
+        border-top: 1px solid #E8E8E8;
+    }
+    .navbar-nav .nav-link{
+        margin-bottom: 0;
+    }
+    .sidebar .sidebar-btn{
+        max-width: 320px;
+        width: 100%;
+    }
+    .popular select, .status select, .type select{
+        height: 42px;
+        padding: 12px 18px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .input-group .btn{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+    .model-col {
+        flex: 1 0 31%;
+    }
+    .model-status span{
+        font-size: 16px;
+    }
+}
+@media  screen and (max-width: 900px) {
+    .model-col {
+        flex: 1 0 34%;
+    }
+}
+@media  screen and (max-width: 768px) {
+
+}
+@media  screen and (max-width: 600px) {
+    .model-col {
+        flex: 1 0 100%;
+    }
+    .model-list{
+        justify-content: center!important;
+    }
+    .model-name h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .model-status,
+    .model-status span,.model-status-text{
+        font-size: 18px;
+    }
+    .model-img{
+        margin-bottom: 20px;
+    }
+    .content{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #DEDEDE;
+    }
+
+    .pagination{
+        padding: 30px 23px 33px;
+        gap: 15px;
+    }
+    .page-item.active .page-link, .page-link:hover{
+        background: transparent;
+        color: #FF5468;
+        outline: none   ;
+    }
+    .page-item{
+        padding: 0 6px;
+    }
+    .pagination .page-link{
+        font-size: 24px;
+        line-height: 32px;
+        color:  #6B6B6B;
+        font-weight: 400;
+
+    }
+    .pagination-block{
+        display: flex!important;
+    }
+    .status{
+        width: 151px;
+    }
+    .type{
+        width: 136px;
+    }
+    .top-bar form{
+        gap: 15px;
+    }
+    .top-bar {
+        padding: 20px 0 30px;
+    }
+    .anketa-partner-desc p{
+        font-size: 16px;
+    }
+    .anketa-partner h4{
+        margin-bottom: 20px;
+    }
+    .model-name-block h2{
+        padding-top: 0;
+    }
+    .model-name-block .model-status{
+        margin-bottom: 20px;
+    }
+    .progress{
+        width: 54px;
+        height: 54px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .progress .progress-value{
+        font-size: 14px;
+    }
+    .progress .progress-value span{
+        font-size: 6px;
+    }
+    .progress .progress-bar{
+        border-width: 1.8px;
+    }
+    .progress:after{
+        border-width: 1.8px;
+    }
+    .gallery-list{
+        margin-bottom: 40px;
+    }
+    .model-actions{
+        margin-bottom: 40px;
+    }
+    .model-review-star{
+        gap: 10px;
+    }
+}
+@media  screen and (max-width: 480px) {
+    .model-col{
+        max-width: 320px    ;
+    }
+    .model-actions{
+        flex-direction: column;
+    }
+    .model-actions .btn-red, .model-actions .btn-red-light{
+        width: 100%;
+    }
+    .star svg{
+        width: 32px;
+        height: 32px;
+    }
+    .model-anketa{
+        padding-top: 0;
+    }
+}
